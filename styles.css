@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+.fixed-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1000; /* Ensure the header appears above other content */
+}
+
+.logo-container img {
+    height: 60px; /* Adjust the height as needed */
+    margin-left: 80px;
+}
+
+.options-container {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+.options-container a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.options-container a:hover {
+    background-color: #555;
+}
+
+.fill-form-container a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #333;
+    border-radius: 5px;
+    margin-right: 80px;
+}
+
+.fill-form-container a:hover {
+    background-color: #555;
+}
+
+/* Existing CSS styles remain unchanged */
+
+.main-content {
+    max-width: 1280px;
+    margin: 180px auto 0; /* Add top margin to create space between header and main content */
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-section {
+    width: 40%;
+}
+
+.left-section h2 {
+    font-size: 56px;
+    margin-bottom: 10px;
+}
+
+.left-section h2 .emphasis {
+    color: #ff0000; /* Change to the color you prefer */
+}
+
+.left-section p{
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.right-section {
+    width: 40%;
+    margin-left: 20%;
+}
+
+.right-section img {
+    max-width: 100%; /* Make the image responsive */
+    height: auto;
+}
+
+.cta-button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: background-color 0.8s;
+}
+
+.cta-button:hover {
+    background-color: #ff0000;
+}
+
+.cta-text {
+    flex-grow: 1; /* Align text to the left */
+}
+
+.arrow {
+    transform: rotate(315deg); /* Rotate the arrow 45 degrees */
+}
