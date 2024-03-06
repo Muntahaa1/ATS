@@ -147,6 +147,7 @@ h2 {
     align-items: center;
     width: 600px;
     height: 250px;
+    width: auto;
     background-color: #ccc;
     /* padding: 20px; */
     border-radius: 10px; /* Added rounded corners */
