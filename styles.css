@@ -121,3 +121,67 @@ body {
 .arrow {
     transform: rotate(315deg); /* Rotate the arrow 45 degrees */
 }
+
+/* Existing CSS styles remain unchanged */
+
+.courses-section {
+    max-width: 1280px;
+    margin: 40px auto; /* Added margin for spacing */
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.course-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns in the grid */
+    gap: 80px 40px; /* Adjusted gap between rows and columns */
+}
+
+.course-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 600px;
+    height: 250px;
+    background-color: #ccc;
+    /* padding: 20px; */
+    border-radius: 10px; /* Added rounded corners */
+}
+
+.course-box img {
+    max-width: 100%;
+    height: auto;
+    margin-right: 20px;
+    /* margin-bottom: 30px; */
+    border-radius: 5px; 
+}
+
+.course-text {
+    flex-grow: 1;
+    margin-left: 20px;
+}
+
+.course-text h3 {
+    margin: 0;
+}
+
+.course-text p {
+    margin-bottom: 10px;
+}
+
+.course-text button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.course-text button:hover {
+    background-color: #555;
+}
