@@ -235,11 +235,15 @@ body {
 
 .community-box {
     background-color: #DCE6FD;
-    padding: 40px 190px 116px 40px;
+    padding: 40px 40px;
     border-radius: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .community-box button{
+    margin-top: 20px;
     padding: 14px 100px;
     background-color: #F7D2A1;
     border-radius: 20px;
