@@ -20,9 +20,10 @@ body {
     z-index: 1000; /* Ensure the header appears above other content */
 }
 
-.logo-container img {
-    height: 60px; /* Adjust the height as needed */
+.logo-container img{
+    height: 60px;
     margin-left: 80px;
+    
 }
 
 .options-container {
